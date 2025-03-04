@@ -15,6 +15,7 @@ Este projeto é uma aplicação web para busca de endereços via CEP utilizando 
 ✅ Interface responsiva usando Tailwind CSS
 
 🚀 Tecnologias Utilizadas
+
 Next.js - Framework React para aplicações server-side
 
 TypeScript - Tipagem estática para maior segurança no código
