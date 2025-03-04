@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <label
+      class="block mb-1 font-medium"
+      for="testInput"
+    >
+      Test Input
+    </label>
+    <div
+      class="flex items-center"
+    >
+      <input
+        class="border p-2 rounded flex-1"
+        id="testInput"
+        name="testInput"
+        value=""
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

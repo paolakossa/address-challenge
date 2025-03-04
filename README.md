@@ -1,40 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+📌 README - Consulta e Cadastro de Endereços via CEP
+📍 Consulta e Cadastro de Endereços
+Este projeto é uma aplicação web para busca de endereços via CEP utilizando a API do ViaCEP. Além disso, permite salvar os endereços localmente no navegador e exibi-los em uma listagem.
 
-## Getting Started
+✅ Busca automática de endereço pelo CEP
+✅ Armazena os endereços no LocalStorage
+✅ Exibe os endereços salvos em uma tabela estilizada
+✅ Cache local para evitar requisições repetidas
+✅ Interface responsiva usando Tailwind CSS
 
-First, run the development server:
+🚀 Tecnologias Utilizadas
+Next.js - Framework React para aplicações server-side
 
-```bash
+TypeScript - Tipagem estática para maior segurança no código
+
+React Hook Form - Gerenciamento de formulários
+
+Tailwind CSS - Estilização flexível e responsiva
+
+Jest + Testing Library - Testes unitários
+
+Heroicons - Ícones modernos para interface
+
+📂 Estrutura do Projeto
+bash
+Copiar
+Editar
+/address-challenge
+│── /components # Componentes reutilizáveis
+│── /models # Tipagem e modelos de dados
+│── /pages # Páginas do projeto (Next.js)
+│── /public/assets # Imagens e assets do projeto
+│── /styles # Arquivos de estilo
+│── /tests # Testes unitários
+│── package.json # Dependências do projeto
+│── README.md # Documentação do projeto
+
+🛠️ Instalação e Execução
+1️⃣ Clone o repositório
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
+2️⃣ Instale as dependências
+bash
+Copiar
+Editar
+npm install
+
+# ou
+
+yarn install
+
+3️⃣ Inicie o projeto
+bash
+Copiar
+Editar
 npm run dev
-# or
+
+# ou
+
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Acesse http://localhost:3000 no navegador.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📝 Decisões Técnicas
+Next.js foi escolhido para facilitar o roteamento e otimizar o desempenho da aplicação.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+React Hook Form foi utilizado para um gerenciamento eficiente dos inputs e validação.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+useReducer foi implementado para o cache de CEPs, evitando requisições desnecessárias.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+LocalStorage foi usado para persistir os endereços salvos, garantindo que o usuário não perca os dados ao recarregar a página.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tailwind CSS foi aplicado para tornar o design responsivo e estilizar os componentes de forma modular.
 
-## Learn More
+Testes unitários foram desenvolvidos usando Jest e Testing Library para garantir o correto funcionamento dos componentes principais.
 
-To learn more about Next.js, take a look at the following resources:
+🤖 Uso de Inteligência Artificial
+Parte da solução foi desenvolvida com o auxílio de inteligência artificial (ChatGPT e Copilot) para:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Gerar estrutura inicial do README
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Auxiliar na lógica do useReducer para cache de CEPs
 
-## Deploy on Vercel
+Refinar código CSS/Tailwind para responsividade
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Escrever e melhorar testes unitários
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Todo código gerado foi revisado e ajustado para seguir boas práticas de programação.
+
+✅ Testes
+Para rodar os testes unitários:
+
+bash
+Copiar
+Editar
+npm run test
+
+# ou
+
+yarn test
+Os testes verificam:
+
+Renderização dos componentes principais
+
+Busca de endereço pelo CEP
+
+Armazenamento e listagem correta dos endereços
+
+Redirecionamento entre páginas
+
+📄 Licença
+Este projeto é open-source e pode ser utilizado livremente.

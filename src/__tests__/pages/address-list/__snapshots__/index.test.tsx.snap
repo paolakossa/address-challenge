@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressList must match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="h-screen flex flex-col items-center bg-[#f4fdf8] p-6"
+  >
+    <button
+      class="mb-6 px-6 py-2 bg-[#225741] text-white font-semibold rounded-lg hover:bg-green-700 transition"
+      type="button"
+    >
+      <div
+        class="flex items-center"
+      >
+        <svg
+          aria-hidden="true"
+          class="w-6 h-6"
+          data-slot="icon"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.75 19.5 8.25 12l7.5-7.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <span
+          class="mr-2"
+        >
+          Voltar ao formulário
+        </span>
+      </div>
+    </button>
+    <div
+      class="bg-white shadow-lg rounded-lg p-6 w-full max-w-5xl"
+    >
+      <h1
+        class="text-2xl font-bold mb-4 text-center text-[#225741]"
+      >
+        Lista de Endereços
+      </h1>
+      <p
+        class="text-center text-gray-500"
+      >
+        Nenhum endereço cadastrado.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

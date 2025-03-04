@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormPage must match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="h-screen flex flex-col md:flex-row items-center justify-center  bg-[#f4fdf8]"
+  >
+    <div
+      class="w-full md:w-1/2 h-150 md:h-screen bg-cover bg-center md:bg-right"
+      style="background-image: url(/assets/images/address.png);"
+    />
+    <div
+      class="md:w-1/2 flex justify-center items-center"
+    >
+      <div
+        class=" bg-gray-50 p-10 rounded-xl shadow-lg max-w-md w-full"
+      >
+        <h1
+          class="text-xl font-bold mb-4 text-center"
+        >
+           Digite o CEP para preencher os campos automaticamente.
+        </h1>
+        <form>
+          <div>
+            <label
+              for="cep"
+            >
+              CEP:
+            </label>
+            <input
+              data-testid="cep"
+              id="cep"
+            />
+          </div>
+          <div
+            class="mt-2"
+          >
+            <div>
+              <label
+                class="block mb-1 font-medium"
+                for="logradouro"
+              >
+                Logradouro:
+              </label>
+              <div
+                class="flex items-center"
+              >
+                <input
+                  class="border p-2 rounded flex-1"
+                  id="logradouro"
+                  name="logradouro"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="mt-2"
+          >
+            <div>
+              <label
+                class="block mb-1 font-medium"
+                for="bairro"
+              >
+                Bairro:
+              </label>
+              <div
+                class="flex items-center"
+              >
+                <input
+                  class="border p-2 rounded flex-1"
+                  id="bairro"
+                  name="bairro"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="my-2"
+          >
+            <div>
+              <label
+                class="block mb-1 font-medium"
+                for="localidade"
+              >
+                Localidade:
+              </label>
+              <div
+                class="flex items-center"
+              >
+                <input
+                  class="border p-2 rounded flex-1"
+                  id="localidade"
+                  name="localidade"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+           
+          <div>
+            <label
+              class="block mb-1 font-medium"
+              for="uf"
+            >
+              UF:
+            </label>
+            <div
+              class="flex items-center"
+            >
+              <input
+                class="border p-2 rounded flex-1"
+                id="uf"
+                name="uf"
+                value=""
+              />
+            </div>
+          </div>
+          <button
+            class="w-full mt-4 px-4 py-2 bg-[#225741] text-white rounded hover:bg-green-700 transition"
+            type="submit"
+          >
+            Salvar
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
